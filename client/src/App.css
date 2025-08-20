@@ -1,0 +1,35 @@
+.app-layout {
+  min-height: 100vh;
+}
+
+.app-header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.app-content {
+  padding: 0 50px;
+  margin-top: 64px;
+  background: #fff;
+  min-height: calc(100vh - 134px);
+}
+
+.app-footer {
+  background: #001529;
+  color: white;
+}
+-------------
+/* Dashboard specific styles */
+.dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard h1 {
+  margin-bottom: 24px;
+}
+
+.dashboard .ant-card {
+  margin-bottom: 16px;
+}
